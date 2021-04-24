@@ -4,7 +4,7 @@
   "description": "A simple, uncluttered, distraction-free, cross-platform JavaScript editor based on electron and code mirror 6.",
   "keywords": [],
   "main": "./main.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "catpea",
   "scripts": {
     "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
