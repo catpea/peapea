@@ -9,9 +9,9 @@
   "scripts": {
     "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
     "start": "electron-forge start",
-    "package": "electron-forge package",
+    "x-package": "electron-forge package",
     "make": "electron-forge make",
-    "publish": "electron-forge publish",
+    "x-publish": "electron-forge publish",
     "lint": "echo \"No linting configured\""
   },
   "devDependencies": {
