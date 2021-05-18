@@ -15,12 +15,12 @@
     "lint": "echo \"No linting configured\""
   },
   "devDependencies": {
-    "electron": "13.0.0-beta.8",
     "@electron-forge/cli": "6.0.0-beta.52",
     "@electron-forge/maker-deb": "6.0.0-beta.52",
     "@electron-forge/maker-rpm": "6.0.0-beta.52",
     "@electron-forge/maker-squirrel": "6.0.0-beta.52",
-    "@electron-forge/maker-zip": "6.0.0-beta.52"
+    "@electron-forge/maker-zip": "6.0.0-beta.52",
+    "electron": "13.0.0-beta.8"
   },
   "config": {
     "forge": {
@@ -54,5 +54,10 @@
   "bugs": {
     "url": "https://github.com/catpea/peapea/issues"
   },
-  "homepage": "https://github.com/catpea/peapea#readme"
+  "homepage": "https://github.com/catpea/peapea#readme",
+  "dependencies": {
+    "cytoscape": "^3.19.0",
+    "golden-layout": "^2.2.0",
+    "jquery": "^3.6.0"
+  }
 }
