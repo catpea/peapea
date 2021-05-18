@@ -20,7 +20,7 @@
     "@electron-forge/maker-rpm": "6.0.0-beta.52",
     "@electron-forge/maker-squirrel": "6.0.0-beta.52",
     "@electron-forge/maker-zip": "6.0.0-beta.52",
-    "electron": "13.0.0-beta.8"
+    "electron": "^13.0.0-beta.8"
   },
   "config": {
     "forge": {
@@ -56,8 +56,16 @@
   },
   "homepage": "https://github.com/catpea/peapea#readme",
   "dependencies": {
+    "@codemirror/basic-setup": "^0.18.0",
+    "@codemirror/lang-javascript": "^0.18.0",
+    "@codemirror/theme-one-dark": "^0.18.0",
     "cytoscape": "^3.19.0",
     "golden-layout": "^2.2.0",
-    "jquery": "^3.6.0"
+    "jquery": "^3.6.0",
+    "programmable": "^1.0.2",
+    "xterm": "^4.12.0",
+    "xterm-addon-fit": "^0.5.0",
+    "xterm-addon-search": "^0.8.0",
+    "xterm-addon-web-links": "^0.4.0"
   }
 }

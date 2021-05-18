@@ -2,30 +2,18 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
-     <title>Hello World!</title>
-    <style>
-      #cy {
-        width: 100%;
-        height: 300px;
-        display: block;
-      }
-    </style>
-
-
-    <!-- ADD THIS -->
-
-
+    <!-- TODO: https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+    <title>Pea Pea</title>
     <link type="text/css" rel="stylesheet" href="node_modules/golden-layout/dist/css/goldenlayout-base.css" />
     <link type="text/css" rel="stylesheet" href="node_modules/golden-layout/dist/css/themes/goldenlayout-dark-theme.css" />
+    <link type="text/css" rel="stylesheet" href="node_modules/xterm/css/xterm.css" />
 
+    <link type="text/css" rel="stylesheet" href="src/node_modules/graph-component/style.css" />
+    <link type="text/css" rel="stylesheet" href="src/node_modules/console-component/style.css" />
   </head>
   <body>
-
-    <!-- <div id="cy">
-    </div> -->
- 
     <!-- You can also require other files to run in this process -->
+    <div id="xterm-container"></div>
     <script src="./renderer.js"></script>
   </body>
 </html>
