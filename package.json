@@ -5,7 +5,7 @@
   "keywords": [],
   "main": "./main.js",
   "version": "1.0.2",
-  "author": "catpea",
+  "author": "catpea <corporate.miou@gmail.com>",
   "scripts": {
     "save": "git add .; git commit -m 'New Release'; git push; npm version patch; npm publish; git push;",
     "start": "electron-forge start",
@@ -46,7 +46,7 @@
       ]
     }
   },
-  "license": "ISC",
+  "license": "GPL-3.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/catpea/peapea.git"
